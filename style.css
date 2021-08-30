@@ -1,0 +1,22 @@
+body{
+    background-color:slategrey;}
+  
+    .container{
+          display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width:max-content;
+    position:absolute;
+    left:30%;
+    top:20%;
+    }
+
+.container>div{
+    border:5px solid black;
+    background-color: skyblue;
+    border-radius: 5px;
+width:200px;
+height:200px;
+margin:10px;
+}
+
